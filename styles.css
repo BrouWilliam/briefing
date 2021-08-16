@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+    --primary-color: #fc466b;
+    --second-color: #3f5efb;
+    --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+    --light-navy: #112240;
+    --light-slate: #a8b2d1;
+}
+
+body{
+    background: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/bgProjects.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1{
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600;
+}
+header h1 span{
+    color: var(--primary-color);
+}
+section .content ul{
+    list-style: none;
+    display: flex;
+    
+}
+section .content ul li{
+    color: white;
+    margin: 0 20px;
+}
+section .content ul li a i{
+    font-size: 1.5rem;
+}
+section .content ul li a i:nth-child(1){
+    color: #3B5998;
+}
+section .content ul li a i.fa-instagram{
+    color: #DD2A7B;
+}
+section .content ul li a i.fa-whatsapp{
+    color: #075E54;
+}
+
+section .form{
+    margin-top: 8rem;
+}
